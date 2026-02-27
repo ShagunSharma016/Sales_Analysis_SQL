@@ -144,26 +144,6 @@ ORDER BY
 - Re-engage high-value churned customers by focusing on targeted win-back campaigns rather than broad retention efforts, as reactivating valuable users may yield higher ROI.
 - Predict & preempt churn risk and use customer-specific warning indicators to proactively intervene with at-risk users before they lapse.
 
-## Strategic Recommendations
-
-1. **Customer Value Optimization** (Customer Segmentation)
-
-   - Launch VIP program for 12,372 high-value customers (66% revenue)
-   - Create personalized upgrade paths for mid-value segment ($66.6M → $135.4M opportunity)
-   - Design price-sensitive promotions for low-value segment to increase purchase frequency
-
-2. **Cohort Performance Strategy** (Customer Revenue by Cohort)
-
-   - Target 2022-2024 cohorts with personalized re-engagement offers
-   - Implement loyalty/subscription programs to stabilize revenue fluctuations
-   - Apply successful strategies from high-spending 2016-2018 cohorts to newer customers
-
-3. **Retention & Churn Prevention** (Customer Retention)
-
-   - Strengthen first 1-2 year engagement with onboarding incentives and loyalty rewards
-   - Focus on targeted win-back campaigns for high-value churned customers
-   - Implement proactive intervention system for at-risk customers before they lapse
-
 ## SQL :  Churn Analysis by Cohort
 
 ```
@@ -212,6 +192,26 @@ GROUP BY
 	customer_status;
 
 ```
+
+## Strategic Recommendations
+
+1. **Customer Value Optimization** (Customer Segmentation)
+
+   - Launch VIP program for 12,372 high-value customers (66% revenue)
+   - Create personalized upgrade paths for mid-value segment ($66.6M → $135.4M opportunity)
+   - Design price-sensitive promotions for low-value segment to increase purchase frequency
+
+2. **Cohort Performance Strategy** (Customer Revenue by Cohort)
+
+   - Target 2022-2024 cohorts with personalized re-engagement offers
+   - Implement loyalty/subscription programs to stabilize revenue fluctuations
+   - Apply successful strategies from high-spending 2016-2018 cohorts to newer customers
+
+3. **Retention & Churn Prevention** (Customer Retention)
+
+   - Strengthen first 1-2 year engagement with onboarding incentives and loyalty rewards
+   - Focus on targeted win-back campaigns for high-value churned customers
+   - Implement proactive intervention system for at-risk customers before they lapse
 
 ## Technical Details
 
